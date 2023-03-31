@@ -16,7 +16,7 @@ export default function Card({props}) {
     useEffect(()=>{
       userCards();
 
-    },[])
+    })
 
     const userCards=()=>{
       fetch("https://fakestoreapi.com/products")
